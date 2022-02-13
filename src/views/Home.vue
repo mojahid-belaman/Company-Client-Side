@@ -1,7 +1,8 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/company.png" />
-    <HelloWorld msg="Welcome to `Test Internship`" />
+    <div class="flex justify-center items-center">
+      <img alt="Vue logo" src="../assets/company.png" />
+    </div>
   </div>
 </template>
 
