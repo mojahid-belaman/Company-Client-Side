@@ -1,10 +1,21 @@
 <template>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/">Home</router-link>
+    <router-link to="/signin">SignIn</router-link>
+    <router-link to="/signup">SingUp</router-link> 
+    <router-link to="/add-company">add company</router-link>
+    <router-link to="/list-company">list company</router-link>
   </div>
   <router-view />
 </template>
+
+<script>
+export default {
+  name: "ListCompany",
+  components: {
+  },
+};
+</script>
 
 <style>
 #app {
